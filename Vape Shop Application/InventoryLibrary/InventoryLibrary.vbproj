@@ -124,5 +124,11 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encryptor\Encryptor.vbproj">
+      <Project>{e0e57ec9-bbbb-4107-86a2-57298f5685e0}</Project>
+      <Name>Encryptor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -43,3 +43,7 @@ C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication
 C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.xml
 C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.pdb
 C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.MainForm.resources
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\Encryptor.dll
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\Encryptor.pdb
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\Encryptor.xml
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.CreateUserAccountForm.resources

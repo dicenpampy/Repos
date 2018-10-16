@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-iqos-100.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dapper, Version=1.50.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.1.50.5\lib\net451\Dapper.dll</HintPath>
@@ -90,6 +93,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateUserAccountForm.Designer.vb">
+      <DependentUpon>CreateUserAccountForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUserAccountForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginForm.Designer.vb">
       <DependentUpon>LoginForm.vb</DependentUpon>
     </Compile>
@@ -119,6 +128,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CreateUserAccountForm.resx">
+      <DependentUpon>CreateUserAccountForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -146,10 +158,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Encryptor\Encryptor.vbproj">
+      <Project>{e0e57ec9-bbbb-4107-86a2-57298f5685e0}</Project>
+      <Name>Encryptor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\InventoryLibrary\InventoryLibrary.vbproj">
       <Project>{68c41c75-54bc-4f5b-a683-cde2dcc0f3d2}</Project>
       <Name>InventoryLibrary</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-iqos-100.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

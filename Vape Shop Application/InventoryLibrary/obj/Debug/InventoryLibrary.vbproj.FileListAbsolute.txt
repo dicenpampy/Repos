@@ -32,3 +32,6 @@ C:\Repos\Vape Shop Application\InventoryLibrary\obj\Debug\InventoryLibrary.vbpro
 C:\Repos\Vape Shop Application\InventoryLibrary\obj\Debug\InventoryLibrary.dll
 C:\Repos\Vape Shop Application\InventoryLibrary\obj\Debug\InventoryLibrary.xml
 C:\Repos\Vape Shop Application\InventoryLibrary\obj\Debug\InventoryLibrary.pdb
+C:\Repos\Vape Shop Application\InventoryLibrary\bin\Debug\Encryptor.dll
+C:\Repos\Vape Shop Application\InventoryLibrary\bin\Debug\Encryptor.pdb
+C:\Repos\Vape Shop Application\InventoryLibrary\bin\Debug\Encryptor.xml
