@@ -102,6 +102,7 @@
     </Compile>
     <Compile Include="Product.vb" />
     <Compile Include="Supplier.vb" />
+    <Compile Include="UserAccount.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

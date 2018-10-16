@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Inventory System")>
+<Assembly: AssemblyTitle("Encryptor")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Inventory System")>
+<Assembly: AssemblyProduct("Encryptor")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("c22b23e5-6631-415b-ae5d-15438c6045bb")>
+<Assembly: Guid("10c51483-e474-4dcd-a2bb-04a50a3f1943")>
 
 ' Version information for an assembly consists of the following four values:
 '

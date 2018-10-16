@@ -20,3 +20,26 @@ C:\Users\TGOP 02\source\repos\Vape Shop Application\VapeShopApplication\bin\Debu
 C:\Users\TGOP 02\source\repos\Vape Shop Application\VapeShopApplication\bin\Debug\MySql.Data.xml
 C:\Users\TGOP 02\source\repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.LoginForm.resources
 C:\Users\TGOP 02\source\repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.vbproj.CopyComplete
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\VapeShopApplication.exe.config
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\VapeShopApplication.exe
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\VapeShopApplication.pdb
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\VapeShopApplication.xml
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\Dapper.dll
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\Google.Protobuf.dll
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\InventoryLibrary.dll
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\MySql.Data.dll
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\InventoryLibrary.pdb
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\InventoryLibrary.xml
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\Dapper.xml
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\Google.Protobuf.xml
+C:\Repos\Vape Shop Application\VapeShopApplication\bin\Debug\MySql.Data.xml
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.vbprojAssemblyReference.cache
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.LoginForm.resources
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.Resources.resources
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.vbproj.GenerateResource.cache
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.vbproj.CoreCompileInputs.cache
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.vbproj.CopyComplete
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.exe
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.xml
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.pdb
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.MainForm.resources
