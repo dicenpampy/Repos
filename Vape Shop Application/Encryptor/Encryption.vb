@@ -2,7 +2,6 @@
 Imports System.Text
 
 Public Class Encryption
-
     Public Shared Function HashString(ByVal str As String) As String
         Return EncryptString(str)
     End Function

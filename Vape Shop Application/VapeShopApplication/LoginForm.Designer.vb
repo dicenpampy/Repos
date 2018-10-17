@@ -400,7 +400,7 @@ Partial Class LoginForm
         Me.MinimumSize = New System.Drawing.Size(480, 330)
         Me.Name = "LoginForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Login"
+        Me.Text = "Account login"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelMessage.ResumeLayout(False)
         Me.ResumeLayout(False)

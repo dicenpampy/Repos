@@ -13,14 +13,14 @@ Public Class UserAccount
     Public Property Address As String
     Public Property ContactNumber As String
 
-    Public Shared Sub RegisterUserAccount(user_account As UserAccount)
+    Public Sub RegisterUserAccount(user_account As UserAccount)
         Using idbcn As IDbConnection = New MySqlConnection(Helper.LoadConnectionString)
             idbcn.Execute("insert into UserAccounts(Username, Password, AES256, Position, FirstName, LastName, EmailAddress, Address, " &
-                          "ContactNumber)values(@Username, @Password, @AES256, @Position, @FirstName, @LastName, EmailAddress, @Address, @ContactNumber)", user_account)
+                          "ContactNumber)values(@Username, @Password, @AES256, @Position, @FirstName, @LastName, @EmailAddress, @Address, @ContactNumber)", user_account)
         End Using
     End Sub
 
-    Public Shared Function UserExists(ByVal username As String, ByVal password As String) As Boolean
+    Public Shared Function PermitUserLogin(ByVal username As String, ByVal password As String) As Boolean
         Dim salt As String = ""
         Using idbcn = New MySqlConnection(Helper.LoadConnectionString)
             idbcn.Open()
@@ -34,14 +34,31 @@ Public Class UserAccount
 
             Dim pass = Encryptor.Encryption.HashString(password)
             Dim hashed_salt = Encryptor.Encryption.HashString(String.Format("{0}{1}", pass, salt))
-            cmd = New MySqlCommand("select * from UserAccounts where Username = @user", idbcn)
+            cmd = New MySqlCommand("select * from UserAccounts where Username = @user and Password = @pass", idbcn)
             cmd.Parameters.AddWithValue("@user", username)
             cmd.Parameters.AddWithValue("@pass", hashed_salt)
+            dr = cmd.ExecuteReader
 
-            Dim results = Convert.ToInt32(cmd.ExecuteScalar())
-            If results = 1 Then Return True Else Return False
+            If dr.HasRows Then Return True Else Return False
+
+            dr.Dispose()
             idbcn.Close()
         End Using
     End Function
 
+    Public Shared Function UsernameExists(ByVal username As String) As Boolean
+        Using cn As New MySqlConnection(Helper.LoadConnectionString)
+            cn.Open()
+            Dim cmd As New MySqlCommand("select * from UserAccounts where Username = @user", cn)
+            cmd.Parameters.AddWithValue("@user", username)
+            Dim dr As MySqlDataReader = cmd.ExecuteReader
+            dr.Read()
+            If dr.HasRows Then
+                Return True
+            Else
+                Return False
+            End If
+            cn.Close()
+        End Using
+    End Function
 End Class

@@ -15,7 +15,7 @@ Public Class LoginForm
     End Sub
 
     Private Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
-        If UserAccount.UserExists(TextUser.Text, TextPass.Text) = True Then MainForm.Show() : Close() Else PanelMessage.Visible = True : TextUser.Clear() : TextPass.Clear() : TextUser.Focus()
+        If UserAccount.PermitUserLogin(TextUser.Text, TextPass.Text) = True Then MainForm.Show() : Close() Else PanelMessage.Visible = True : TextUser.Clear() : TextPass.Clear() : TextUser.Focus()
     End Sub
 
     Private Sub ButtonCreateAcc_Click(sender As Object, e As EventArgs) Handles ButtonCreateAcc.Click

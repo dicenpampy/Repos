@@ -93,6 +93,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationModule.vb" />
+    <Compile Include="CreateUserAccountDetailsForm.Designer.vb">
+      <DependentUpon>CreateUserAccountDetailsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUserAccountDetailsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CreateUserAccountForm.Designer.vb">
       <DependentUpon>CreateUserAccountForm.vb</DependentUpon>
     </Compile>
@@ -128,6 +135,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CreateUserAccountDetailsForm.resx">
+      <DependentUpon>CreateUserAccountDetailsForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateUserAccountForm.resx">
       <DependentUpon>CreateUserAccountForm.vb</DependentUpon>
     </EmbeddedResource>
