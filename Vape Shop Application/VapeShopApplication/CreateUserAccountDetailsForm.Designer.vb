@@ -22,6 +22,7 @@ Partial Class CreateUserAccountDetailsForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CreateUserAccountDetailsForm))
         Me.ButtonCancel = New System.Windows.Forms.Button()
         Me.ButtonNext = New System.Windows.Forms.Button()
         Me.ButtonBack = New System.Windows.Forms.Button()
@@ -394,6 +395,7 @@ Partial Class CreateUserAccountDetailsForm
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CreateUserAccountDetailsForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Create account"

@@ -15,10 +15,15 @@ Public Class LoginForm
     End Sub
 
     Private Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
-        If UserAccount.PermitUserLogin(TextUser.Text, TextPass.Text) = True Then MainForm.Show() : Close() Else PanelMessage.Visible = True : TextUser.Clear() : TextPass.Clear() : TextUser.Focus()
+        If PermitUserLogin(TextUser.Text, TextPass.Text) = True Then MainForm.Show() : Close() Else PanelMessage.Visible = True : TextPass.Clear() : TextPass.Focus()
     End Sub
 
     Private Sub ButtonCreateAcc_Click(sender As Object, e As EventArgs) Handles ButtonCreateAcc.Click
         CreateUserAccountForm.Show() : Close()
     End Sub
+
+    Private Sub ButtonHelp_Click(sender As Object, e As EventArgs) Handles ButtonHelp.Click
+        PasswordResetForm.Show() : Close()
+    End Sub
+
 End Class

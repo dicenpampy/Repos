@@ -23,7 +23,7 @@ Public Class CreateUserAccountForm
             LabelMessage.Text = "You must provide a username for your account."
             TextUser.Focus()
         Else
-            If UserAccount.UsernameExists(TextUser.Text) = True Then
+            If UsernameExists(TextUser.Text) = True Then
                 PanelMessage.Visible = True
                 LabelMessage.Text = "The username you have entered has already been used. Please try another one."
                 TextUser.Focus()

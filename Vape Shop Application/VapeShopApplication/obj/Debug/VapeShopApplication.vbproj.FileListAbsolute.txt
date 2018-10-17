@@ -48,3 +48,6 @@ C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication
 C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.xml
 C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.pdb
 C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.CreateUserAccountDetailsForm.resources
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.PasswordResetForm.resources
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.PasswordResetVerificationForm.resources
+C:\Repos\Vape Shop Application\VapeShopApplication\obj\Debug\VapeShopApplication.NewPasswordForm.resources

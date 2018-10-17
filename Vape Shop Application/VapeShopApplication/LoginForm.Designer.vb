@@ -34,7 +34,6 @@ Partial Class LoginForm
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.TextPass = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.CheckPassRemem = New System.Windows.Forms.CheckBox()
         Me.ButtonLogin = New System.Windows.Forms.Button()
         Me.ButtonCancel = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
@@ -167,19 +166,6 @@ Partial Class LoginForm
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Password"
         '
-        'CheckPassRemem
-        '
-        Me.CheckPassRemem.AutoSize = True
-        Me.CheckPassRemem.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CheckPassRemem.Font = New System.Drawing.Font("Segoe UI", 8.0!)
-        Me.CheckPassRemem.ForeColor = System.Drawing.Color.DarkGray
-        Me.CheckPassRemem.Location = New System.Drawing.Point(120, 154)
-        Me.CheckPassRemem.Name = "CheckPassRemem"
-        Me.CheckPassRemem.Size = New System.Drawing.Size(147, 17)
-        Me.CheckPassRemem.TabIndex = 11
-        Me.CheckPassRemem.Text = "Remember my password"
-        Me.CheckPassRemem.UseVisualStyleBackColor = True
-        '
         'ButtonLogin
         '
         Me.ButtonLogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(73, Byte), Integer), CType(CType(79, Byte), Integer), CType(CType(90, Byte), Integer))
@@ -188,7 +174,7 @@ Partial Class LoginForm
         Me.ButtonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonLogin.Font = New System.Drawing.Font("Segoe UI", 8.0!)
         Me.ButtonLogin.ForeColor = System.Drawing.Color.LightGray
-        Me.ButtonLogin.Location = New System.Drawing.Point(120, 179)
+        Me.ButtonLogin.Location = New System.Drawing.Point(120, 163)
         Me.ButtonLogin.Name = "ButtonLogin"
         Me.ButtonLogin.Size = New System.Drawing.Size(161, 23)
         Me.ButtonLogin.TabIndex = 12
@@ -205,7 +191,7 @@ Partial Class LoginForm
         Me.ButtonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonCancel.Font = New System.Drawing.Font("Segoe UI", 8.0!)
         Me.ButtonCancel.ForeColor = System.Drawing.Color.LightGray
-        Me.ButtonCancel.Location = New System.Drawing.Point(291, 179)
+        Me.ButtonCancel.Location = New System.Drawing.Point(291, 163)
         Me.ButtonCancel.Name = "ButtonCancel"
         Me.ButtonCancel.Size = New System.Drawing.Size(161, 23)
         Me.ButtonCancel.TabIndex = 13
@@ -216,7 +202,7 @@ Partial Class LoginForm
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(62, Byte), Integer))
-        Me.Panel5.Location = New System.Drawing.Point(28, 217)
+        Me.Panel5.Location = New System.Drawing.Point(28, 209)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(424, 1)
         Me.Panel5.TabIndex = 14
@@ -226,7 +212,7 @@ Partial Class LoginForm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.LightGray
-        Me.Label5.Location = New System.Drawing.Point(77, 229)
+        Me.Label5.Location = New System.Drawing.Point(77, 221)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(129, 13)
         Me.Label5.TabIndex = 15
@@ -240,7 +226,7 @@ Partial Class LoginForm
         Me.ButtonHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonHelp.Font = New System.Drawing.Font("Segoe UI", 8.0!)
         Me.ButtonHelp.ForeColor = System.Drawing.Color.LightGray
-        Me.ButtonHelp.Location = New System.Drawing.Point(212, 224)
+        Me.ButtonHelp.Location = New System.Drawing.Point(212, 216)
         Me.ButtonHelp.Name = "ButtonHelp"
         Me.ButtonHelp.Size = New System.Drawing.Size(240, 23)
         Me.ButtonHelp.TabIndex = 16
@@ -256,7 +242,7 @@ Partial Class LoginForm
         Me.ButtonCreateAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonCreateAcc.Font = New System.Drawing.Font("Segoe UI", 8.0!)
         Me.ButtonCreateAcc.ForeColor = System.Drawing.Color.LightGray
-        Me.ButtonCreateAcc.Location = New System.Drawing.Point(212, 253)
+        Me.ButtonCreateAcc.Location = New System.Drawing.Point(212, 245)
         Me.ButtonCreateAcc.Name = "ButtonCreateAcc"
         Me.ButtonCreateAcc.Size = New System.Drawing.Size(240, 23)
         Me.ButtonCreateAcc.TabIndex = 18
@@ -269,7 +255,7 @@ Partial Class LoginForm
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.LightGray
-        Me.Label6.Location = New System.Drawing.Point(77, 258)
+        Me.Label6.Location = New System.Drawing.Point(77, 250)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(128, 13)
         Me.Label6.TabIndex = 17
@@ -284,7 +270,7 @@ Partial Class LoginForm
         Me.PanelMessage.Controls.Add(Me.Panel7)
         Me.PanelMessage.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelMessage.ForeColor = System.Drawing.Color.Gainsboro
-        Me.PanelMessage.Location = New System.Drawing.Point(28, 283)
+        Me.PanelMessage.Location = New System.Drawing.Point(28, 275)
         Me.PanelMessage.Name = "PanelMessage"
         Me.PanelMessage.Size = New System.Drawing.Size(424, 36)
         Me.PanelMessage.TabIndex = 19
@@ -378,7 +364,6 @@ Partial Class LoginForm
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.ButtonCancel)
         Me.Controls.Add(Me.ButtonLogin)
-        Me.Controls.Add(Me.CheckPassRemem)
         Me.Controls.Add(Me.TextPass)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Panel4)
@@ -419,7 +404,6 @@ Partial Class LoginForm
     Friend WithEvents Panel4 As Panel
     Friend WithEvents TextPass As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents CheckPassRemem As CheckBox
     Friend WithEvents ButtonLogin As Button
     Friend WithEvents ButtonCancel As Button
     Friend WithEvents Panel5 As Panel
